@@ -1,0 +1,14 @@
+.container{
+    min-height: 100vh;
+    box-shadow: 4px 4px 10px 4px lightgray;
+    background: url("../../../img/backgroung.png") center bottom no-repeat#ffffff;
+    background-size: 100% 25%;
+    padding-bottom: 21%;
+}
+.title {
+    text-align: center;
+}
+.app{
+    width: 60%;
+    margin: 0 auto;
+}

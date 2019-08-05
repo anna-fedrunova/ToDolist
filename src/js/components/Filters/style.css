@@ -1,0 +1,9 @@
+.filters-group{
+    margin: 1% 0;
+}
+.filters-group div{
+    text-align: center;
+}
+.radio-btn {
+    display: none;
+}
