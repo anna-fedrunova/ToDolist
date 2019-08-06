@@ -1,11 +1,6 @@
 .task:hover .text-progress, .task:hover .text-done{
     cursor: default;
-    text-shadow: 0 1px 1px lightgray;
-    border-bottom: 1px lightgray dotted;
-}
-.task:hover .in-progress, .task:hover .done{
-    background: url("../../../img/hover.png") center no-repeat;
-    background-size: contain;
+    background: #fff7f0;
 }
 .checkbox{
     visibility: hidden;
@@ -13,7 +8,7 @@
 .in-progress, .done {
     max-width: 100%;
     min-width: 35px;
-    transition: all ease-in-out 30ms;
+    transition: all ease-in-out 400ms;
 }
 .in-progress{
     background: url("../../../img/progress.png") center no-repeat;
@@ -28,12 +23,12 @@
 }
 .text-progress{
     text-decoration: none;
-    transition: all ease-in-out 10ms;
+    transition: all ease-in-out 200ms;
 }
 .text-done{
     color: grey;
     text-decoration: line-through;
-    transition: all ease-in-out 10ms;
+    transition: all ease-in-out 200ms;
 }
 .hidden {
     display: none;

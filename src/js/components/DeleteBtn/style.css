@@ -1,16 +1,16 @@
 .delete-btn{
     text-align: center;
     width: 80%;
-    border: solid 1px red;
+    border: solid 1px #ffc5c2;
     border-radius: 10%;
-    transition: all ease-in-out 20ms;
+    transition: all ease-in-out 200ms;
 }
 .delete-btn:hover{
-    background-color: red;
+    background-color: #ff807a;
     cursor: default;
 }
 .delete-btn:active{
-    box-shadow: 0 0 4px red;
+    box-shadow: 0 0 4px #ff807a;
 }
 .confirm-block {
     font-size: small;
@@ -34,11 +34,13 @@
     cursor: default;
 }
 .del{
-    background: red;
+    background: #ff807a;
     border-radius: 10% 0 0 10%;
+    transition: all ease-in-out 200ms;
 }
 .del:hover{
     color: white;
+    background: #fc736d;
     font-weight: bold;
     cursor: default;
 }
