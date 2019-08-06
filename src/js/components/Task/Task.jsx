@@ -44,7 +44,7 @@ export default class Task extends React.Component {
                         <input type='checkbox' className='checkbox'/>
                     </div>
                 </div>
-                <div className='task-text col-10'>
+                <div className='task-text col-10 pr-0'>
                     <p className={textStyle}
                            onClick={this.props.onStatusChange}>
                         {this.props.children}

@@ -1,5 +1,6 @@
 .delete-btn{
     text-align: center;
+    min-width: 14px;
     width: 80%;
     border: solid 1px #ffc5c2;
     border-radius: 10%;

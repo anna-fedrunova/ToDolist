@@ -11,11 +11,11 @@
     transition: all ease-in-out 400ms;
 }
 .in-progress{
-    background: url("../../../img/progress.png") center no-repeat;
+    background: url("../../../../dist/img/progress.png") center no-repeat;
     background-size: contain;
 }
 .done {
-    background: url("../../../img/done.png") center no-repeat;
+    background: url("../../../../dist/img/done.png") center no-repeat;
     background-size: contain;
 }
 .text-done, .text-progress{

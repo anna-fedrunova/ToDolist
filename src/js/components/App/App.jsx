@@ -69,7 +69,6 @@ class App extends React.Component {
     }
     _updateLocalStorage(){
         localStorage.setItem('tasks', JSON.stringify(this.state.tasks));
-        // this.tasks = JSON.parse(localStorage.getItem('tasks'));
     }
     render() {
         return(
